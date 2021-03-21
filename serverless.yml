@@ -8,6 +8,15 @@ provider:
 package:
   artifact: target/songlist-tabs-latest.jar
 
+plugins:
+  - serverless-plugin-lambda-warmup
+
 functions:
   songlist-tabs:
-    handler: io.github.acm19.Handler
+    handler: io.github.acm19.lambda.Handler
+    environment:
+      ARTIST_NAME: ${env:ARTIST_NAME}
+    events:
+      - http:
+          path: tabRedirect
+          method: get

@@ -12,3 +12,8 @@ target
 
 # Serverless directories
 .serverless
+node_modules
+
+# IDE
+/nbproject/
+

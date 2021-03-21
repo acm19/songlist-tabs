@@ -1,0 +1,63 @@
+{
+  "list": [
+    {
+      "id": 2796989,
+      "note": "",
+      "botRequestBy": null,
+      "nonlistSong": null,
+      "donationAmount": 0,
+      "createdAt": "2021-03-21T12:40:21.263Z",
+      "songId": 1142616,
+      "streamerId": 11160,
+      "song": {
+        "id": 1142616,
+        "title": "Test1",
+        "artist": "ArtistTest1",
+        "createdAt": "2021-03-21T12:39:39.183Z",
+        "attributeIds": []
+      },
+      "requests": [
+        {
+          "id": 3770659,
+          "name": "requester1",
+          "note": null,
+          "amount": 0,
+          "source": "manual",
+          "inChat": false
+        }
+      ],
+      "position": 1
+    },
+    {
+      "id": 2796991,
+      "note": "",
+      "botRequestBy": null,
+      "nonlistSong": null,
+      "donationAmount": 0,
+      "createdAt": "2021-03-21T12:41:56.421Z",
+      "songId": 1142618,
+      "streamerId": 11160,
+      "song": {
+        "id": 1142618,
+        "title": "Test2",
+        "artist": "ArtistTest2",
+        "createdAt": "2021-03-21T12:41:41.893Z",
+        "attributeIds": []
+      },
+      "requests": [
+        {
+          "id": 3770661,
+          "name": "other",
+          "note": null,
+          "amount": 0,
+          "source": "manual",
+          "inChat": false
+        }
+      ],
+      "position": 2
+    }
+  ],
+  "status": {
+    "songsPlayedToday": 0
+  }
+}

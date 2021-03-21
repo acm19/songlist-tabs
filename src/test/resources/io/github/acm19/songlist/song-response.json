@@ -1,0 +1,19 @@
+{
+  "id": 1142616,
+  "title": "Test1",
+  "artist": "ArtistTest1",
+  "createdAt": "2021-03-21T12:39:39.183Z",
+  "active": true,
+  "lastActivation": "2021-03-21T12:39:39.182Z",
+  "comment": "https://tabs.ultimate-guitar.com/user/tab/view?h=utTfy7hL5mLm6dxItOs67okB",
+  "tabs": "",
+  "lyrics": "",
+  "chords": "",
+  "capo": "",
+  "bypassRequestLimits": false,
+  "minAmount": 0,
+  "lastPlayed": null,
+  "timesPlayed": 0,
+  "numQueued": 1,
+  "attributeIds": []
+}
