@@ -1,0 +1,13 @@
+service: songlist-tabs
+
+provider:
+  name: aws
+  region: eu-west-1
+  runtime: java11
+
+package:
+  artifact: target/songlist-tabs-latest.jar
+
+functions:
+  songlist-tabs:
+    handler: io.github.acm19.Handler
