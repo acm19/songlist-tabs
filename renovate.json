@@ -2,6 +2,7 @@
   "extends": [
     "config:recommended",
     "group:all",
-    ":disableDependencyDashboard"
+    ":disableDependencyDashboard",
+    "schedule:monthly"
   ]
 }
