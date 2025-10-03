@@ -3,6 +3,13 @@
     "config:recommended",
     "group:all",
     ":disableDependencyDashboard",
-    "schedule:monthly"
+    "schedule:monthly",
+    "packageRules": [
+      {
+        "matchPackageNames": ["org.junit:*"],
+        "allowedVersions": "<6.0.0",
+        "description": "Limit JUnit major version to 5 since JUnit 6 requires Java 17"
+      }
+    ]
   ]
 }
